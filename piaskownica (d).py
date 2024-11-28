@@ -1,0 +1,13 @@
+x = int(input("Podaj x "))
+y = int(input("Podaj y różnego od 0 "))
+
+print(f"Suma wynosi {x+y}")
+print(f"Różnica wynosi {x-y}")
+print(f"Iloczyn wynosi {x*y}")
+print(f"Iloraz wynosi {x/y}")
+print(f"Reszta z dzielenia x/y wynosi {x%y}")
+print(f"Wynik dzielenia całowitego x/y wynosi {x//y}")
+print(f"Wynik podniesienia x do potęgi y wynosi {x**y}")
+print(f"wynik kwadratowego pierwiastka z x wynosi {x**(1/2)}")
+print(f"x ({x}) jest różne od y ({y}): {x!=y}")
+print(f"x ({x}) jest mniejsze od y ({y}): {x<y}")
